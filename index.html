@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="web application" content="Free BMI Calculator" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Arif Hassan" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta http-equiv="refresh" content="73000" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Body Mass Calculator</h1>
+      <label for="height">Your Height (cm):</label><br />
+      <input type="number" id="height" class="input" /><br />
+      <label for="weight">Your Weight (kg):</label><br />
+      <input type="number" id="weight" class="input" /><br />
+      <button type="button" id="btn" class="button">Compute BMI</button><br />
+      <input readonly type="number" id="total" class="bmi-result" /><br />
+      <h4 class="info-text">
+        Weight Condition: <span id="weight-condition"></span>
+      </h4>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
